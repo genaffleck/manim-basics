@@ -9,7 +9,7 @@ class plotgraph(Scene):
 
         self.add(a)
         graph=a.plot(lambda x: x, color=GREEN)
-        graph2=a.plot(lambda x: x**2, color=RED)
+        graph2=a.plot(lambda x: x**2, x_range=[-2,2], color=RED)
         graph3=a.plot(lambda x: x**3, color=RED)
         graph4=a.plot(lambda x: x**4, color=RED)
         self.add(graph)
