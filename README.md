@@ -1,3 +1,3 @@
 # manim-basics
 
-how to make countdown timer using python+manim
+short lessons on using manim
