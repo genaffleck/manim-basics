@@ -6,5 +6,5 @@ class ValueTrackers(Scene):
         num = always_redraw(lambda: DecimalNumber().set_value(k.get_value()))
 
         self.play(FadeIn(num))
-        self.wait()
+        self.wait(2)
         self.play(k.animate.set_value(0), run_time=3.5, rate_func=linear)
