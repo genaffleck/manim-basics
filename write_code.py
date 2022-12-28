@@ -16,7 +16,7 @@ class code(Scene):
       style=Code.styles_list[14],
       background="window",
       language="latex"
-    ).scale(1.2)
+    ).scale(2)
 
     self.play(Write(codes), run_time = 5)
     self.wait(1)
