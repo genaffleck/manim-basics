@@ -26,8 +26,8 @@ class graph(Scene):
 
         l1 = always_redraw(lambda : DashedLine(start = d1, end = d2))
         l2 = always_redraw(lambda: DashedLine(start = d3, end = d2))
-        func_value = always_redraw(lambda : Text(f"{func.underlying_function(x.get_value()):.1f}", font_size=15, color=RED).next_to(d3, RIGHT))
-        x_value = always_redraw(lambda : Text(f"{x.get_value():.1f}", font_size=15, color=RED).next_to(d1, UP))
+        func_value = always_redraw(lambda : Text(f"{func.underlying_function(x.get_value()):.1f}", font_size=15, color=YELLOW).next_to(d3, RIGHT))
+        x_value = always_redraw(lambda : Text(f"{x.get_value():.1f}", font_size=15, color=YELLOW).next_to(d1, UP))
         
         self.play(FadeIn(d1))
         self.play(FadeIn(d2))

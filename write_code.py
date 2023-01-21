@@ -1,5 +1,6 @@
 from manim import *
 
+
 class code(Scene):
   def construct(self):
     code = """\\documentclass{article}
